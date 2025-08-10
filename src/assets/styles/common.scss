@@ -1,9 +1,13 @@
+@use 'mixin';
+@use 'variables';
+@use 'extend' as *;
+
 .no--margin {
-	@include margin(0 !important);
+	@include mixin.margin(0 !important);
 }
 
 .no--padding {
-	@include padding(0 !important);
+	@include mixin.padding(0 !important);
 }
 
 .no--border {
@@ -11,118 +15,118 @@
 }
 
 .no--border-radius {
-	@include borderRadius(0 !important);
+	@include mixin.borderRadius(0 !important);
 }
 
 .m--0-auto {
-	@include margin(0 auto !important);
+	@include mixin.margin(0 auto !important);
 }
 
 .width--auto {
-	@include width(auto !important);
+	@include mixin.width(auto !important);
 }
 
 .width--full {
-	@include width(100% !important);
+	@include mixin.width(100% !important);
 }
 
 .width--half {
-	@include width(50% !important);
+	@include mixin.width(50% !important);
 }
 
 .width--40-per {
-	@include width(40% !important);
+	@include mixin.width(40% !important);
 }
 
 .width--90-per {
-	@include width(90% !important);
+	@include mixin.width(90% !important);
 }
 
 .width--20-px {
-	@include width(20px !important);
+	@include mixin.width(20px !important);
 }
 .width--15-per {
-	@include width(15% !important);
+	@include mixin.width(15% !important);
 }
 .width--19-per {
-	@include width(19% !important);
+	@include mixin.width(19% !important);
 }
 
 .width--20-per {
-	@include width(20% !important);
+	@include mixin.width(20% !important);
 }
 
 .width--25-per {
-	@include width(25% !important);
+	@include mixin.width(25% !important);
 }
 
 .width--30-px {
-	@include width(30px !important);
+	@include mixin.width(30px !important);
 }
 
 .width--35-px {
-	@include width(35px !important);
+	@include mixin.width(35px !important);
 }
 
 .width--40-px {
-	@include width(40px !important);
+	@include mixin.width(40px !important);
 }
 
 .width--50-px {
-	@include width(50px !important);
+	@include mixin.width(50px !important);
 }
 
 .width--75-px {
-	@include width(75px !important);
+	@include mixin.width(75px !important);
 }
 
 .width--100-px {
-	@include width(100px !important);
+	@include mixin.width(100px !important);
 }
 
 .max-width--350 {
-	@include max-width(350px !important);
-	@include width(100% !important);
+	@include mixin.max-width(350px !important);
+	@include mixin.width(100% !important);
 }
 .max-width--160 {
-	@include max-width(160px !important);
+	@include mixin.max-width(160px !important);
 }
 .max-width--90 {
-	@include max-width(90px !important);
+	@include mixin.max-width(90px !important);
 }
 
 .height--full {
-	@include height(100% !important);
+	@include mixin.height(100% !important);
 }
 
 .height--20-px {
-	@include height(20px !important);
+	@include mixin.height(20px !important);
 }
 
 .height--30-px {
-	@include height(30px !important);
+	@include mixin.height(30px !important);
 }
 
 .height--35-px {
-	@include height(35px !important);
+	@include mixin.height(35px !important);
 }
 
 .height--40-px {
-	@include height(40px !important);
+	@include mixin.height(40px !important);
 }
 
 .height--50-px {
-	@include height(50px !important);
+	@include mixin.height(50px !important);
 }
 .height--100-px {
-	@include height(100px !important);
+	@include mixin.height(100px !important);
 }
 .height--200-px {
-	@include height(200px !important);
+	@include mixin.height(200px !important);
 }
 
 .min-height--inherit {
-	@include min-height(inherit);
+	@include mixin.min-height(inherit);
 }
 
 .box-size--border-box {
@@ -138,299 +142,299 @@
 }
 
 .padding--2--3 {
-	@include padding(0.25rem 0.3rem);
+	@include mixin.padding(0.25rem 0.3rem);
 }
 
 .padding--0--15 {
-	@include padding(0px 15px);
+	@include mixin.padding(0px 15px);
 }
 
 .p--5 {
-	@include padding(5px);
+	@include mixin.padding(5px);
 }
 
 .p--10 {
-	@include padding(10px);
+	@include mixin.padding(10px);
 }
 
 .p--25 {
-	@include padding(25px);
+	@include mixin.padding(25px);
 }
 
 .pb--0 {
-	@include paddingBottom(0px !important);
+	@include mixin.paddingBottom(0px !important);
 }
 
 .pb--5 {
-	@include paddingBottom(5px !important);
+	@include mixin.paddingBottom(5px !important);
 }
 
 .pb--10 {
-	@include paddingBottom(10px !important);
+	@include mixin.paddingBottom(10px !important);
 }
 
 .pb--20 {
-	@include paddingBottom(20px);
+	@include mixin.paddingBottom(20px);
 }
 
 .pl--0 {
-	@include paddingLeft(0 !important);
+	@include mixin.paddingLeft(0 !important);
 }
 
 .pl--5 {
-	@include paddingLeft(5px !important);
+	@include mixin.paddingLeft(5px !important);
 }
 
 .pl--10 {
-	@include paddingLeft(10px !important);
+	@include mixin.paddingLeft(10px !important);
 }
 
 .pl--15 {
-	@include paddingLeft(15px !important);
+	@include mixin.paddingLeft(15px !important);
 }
 
 .pl--20 {
-	@include paddingLeft(20px);
+	@include mixin.paddingLeft(20px);
 }
 
 .pl--25 {
-	@include paddingLeft(25px);
+	@include mixin.paddingLeft(25px);
 }
 
 .pr--0 {
-	@include paddingRight(0 !important);
+	@include mixin.paddingRight(0 !important);
 }
 
 .pr--5 {
-	@include paddingRight(5px);
+	@include mixin.paddingRight(5px);
 }
 .pr--10 {
-	@include paddingRight(10px);
+	@include mixin.paddingRight(10px);
 }
 
 .pr--20 {
-	@include paddingRight(20px);
+	@include mixin.paddingRight(20px);
 }
 
 .pr--25 {
-	@include paddingRight(25px);
+	@include mixin.paddingRight(25px);
 }
 
 .pl--15 {
-	@include paddingLeft(15px);
+	@include mixin.paddingLeft(15px);
 }
 
 .pl--30 {
-	@include paddingLeft(30px);
+	@include mixin.paddingLeft(30px);
 }
 
 .pr--15 {
-	@include paddingRight(15px);
+	@include mixin.paddingRight(15px);
 }
 
 .pr--10 {
-	@include paddingRight(10px);
+	@include mixin.paddingRight(10px);
 }
 
 .pr--30 {
-	@include paddingRight(30px);
+	@include mixin.paddingRight(30px);
 }
 
 .pt--0 {
-	@include paddingTop(0px !important);
+	@include mixin.paddingTop(0px !important);
 }
 .pt--3 {
-	@include paddingTop(3px !important);
+	@include mixin.paddingTop(3px !important);
 }
 .pt--12 {
-	@include paddingTop(12px !important);
+	@include mixin.paddingTop(12px !important);
 }
 .pt--15 {
-	@include paddingTop(15px !important);
+	@include mixin.paddingTop(15px !important);
 }
 
 .pt--20 {
-	@include paddingTop(20px);
+	@include mixin.paddingTop(20px);
 }
 
 .pb--15 {
-	@include paddingBottom(15px !important);
+	@include mixin.paddingBottom(15px !important);
 }
 
 .pb--20 {
-	@include paddingBottom(20px);
+	@include mixin.paddingBottom(20px);
 }
 
 .pb--25 {
-	@include paddingBottom(25px);
+	@include mixin.paddingBottom(25px);
 }
 
 .pt--30 {
-	@include paddingTop(30px);
+	@include mixin.paddingTop(30px);
 }
 
 .pb--30 {
-	@include paddingBottom(30px);
+	@include mixin.paddingBottom(30px);
 }
 
 .mt--0 {
-	@include marginTop(0 !important);
+	@include mixin.marginTop(0 !important);
 }
 
 .mt--3 {
-	@include marginTop(3px !important);
+	@include mixin.marginTop(3px !important);
 }
 
 .mt--5 {
-	@include marginTop(5px !important);
+	@include mixin.marginTop(5px !important);
 }
 
 .mt--10 {
-	@include marginTop(10px);
+	@include mixin.marginTop(10px);
 }
 
 .mt--15 {
-	@include marginTop(15px !important);
+	@include mixin.marginTop(15px !important);
 }
 
 .mt--20 {
-	@include marginTop(20px !important);
+	@include mixin.marginTop(20px !important);
 }
 
 .mt--25 {
-	@include marginTop(25px !important);
+	@include mixin.marginTop(25px !important);
 }
 
 .mt--28 {
-	@include marginTop(28px !important);
+	@include mixin.marginTop(28px !important);
 }
 
 .mt--30 {
-	@include marginTop(30px !important);
+	@include mixin.marginTop(30px !important);
 }
 
 .mt--35 {
-	@include marginTop(35px !important);
+	@include mixin.marginTop(35px !important);
 }
 
 .mt--40 {
-	@include marginTop(40px !important);
+	@include mixin.marginTop(40px !important);
 }
 
 .mt--50 {
-	@include marginTop(50px !important);
+	@include mixin.marginTop(50px !important);
 }
 
 .mt--60 {
-	@include marginTop(60px !important);
+	@include mixin.marginTop(60px !important);
 }
 
 .mt--180 {
-	@include marginTop(180px !important);
+	@include mixin.marginTop(180px !important);
 }
 
 .ml--5 {
-	@include marginLeft(5px);
+	@include mixin.marginLeft(5px);
 }
 
 .ml--10 {
-	@include marginLeft(10px);
+	@include mixin.marginLeft(10px);
 }
 
 .ml--15 {
-	@include marginLeft(15px);
+	@include mixin.marginLeft(15px);
 }
 
 .ml--20 {
-	@include marginLeft(20px);
+	@include mixin.marginLeft(20px);
 }
 
 .ml--25 {
-	@include marginLeft(25px);
+	@include mixin.marginLeft(25px);
 }
 
 .ml--30 {
-	@include marginLeft(30px);
+	@include mixin.marginLeft(30px);
 }
 
 .ml--35 {
-	@include marginLeft(35px);
+	@include mixin.marginLeft(35px);
 }
 
 .mr--0 {
-	@include marginRight(0 !important);
+	@include mixin.marginRight(0 !important);
 }
 
 .mr--5 {
-	@include marginRight(5px);
+	@include mixin.marginRight(5px);
 }
 
 .mr--15 {
-	@include marginRight(15px !important);
+	@include mixin.marginRight(15px !important);
 }
 
 .mr--35 {
-	@include marginRight(35px);
+	@include mixin.marginRight(35px);
 }
 
 .mr--10 {
-	@include marginRight(10px);
+	@include mixin.marginRight(10px);
 }
 
 .mr--20 {
-	@include marginRight(20px !important);
+	@include mixin.marginRight(20px !important);
 }
 
 .mr--30 {
-	@include marginRight(30px);
+	@include mixin.marginRight(30px);
 }
 
 .mr--40 {
-	@include marginRight(40px);
+	@include mixin.marginRight(40px);
 }
 
 .mr--50 {
-	@include marginRight(50px);
+	@include mixin.marginRight(50px);
 }
 
 .mr--60 {
-	@include marginRight(60px);
+	@include mixin.marginRight(60px);
 }
 
 .mb--0 {
-	@include marginBottom(0 !important);
+	@include mixin.marginBottom(0 !important);
 }
 
 .mb--5 {
-	@include marginBottom(5px);
+	@include mixin.marginBottom(5px);
 }
 
 .mb--10 {
-	@include marginBottom(10px !important);
+	@include mixin.marginBottom(10px !important);
 }
 
 .mb--15 {
-	@include marginBottom(15px !important);
+	@include mixin.marginBottom(15px !important);
 }
 
 .mb--20 {
-	@include marginBottom(20px !important);
+	@include mixin.marginBottom(20px !important);
 }
 
 .mb--25 {
-	@include marginBottom(25px !important);
+	@include mixin.marginBottom(25px !important);
 }
 
 .mb--30 {
-	@include marginBottom(30px !important);
+	@include mixin.marginBottom(30px !important);
 }
 
 .mb--40 {
-	@include marginBottom(40px !important);
+	@include mixin.marginBottom(40px !important);
 }
 
 .mb--50 {
-	@include marginBottom(50px !important);
+	@include mixin.marginBottom(50px !important);
 }
 
 .d--inline-block {
@@ -514,78 +518,78 @@
 }
 
 .text--left {
-	@include textAlign(left !important);
+	@include mixin.textAlign(left !important);
 }
 
 .text--right {
-	@include textAlign(right !important);
+	@include mixin.textAlign(right !important);
 }
 
 .text--center {
-	@include textAlign(center !important);
+	@include mixin.textAlign(center !important);
 }
 
 .line-height--default {
-	@include lineHeight(1);
+	@include mixin.lineHeight(1);
 }
 
 .line-height--13px {
-	@include lineHeight(13px !important);
+	@include mixin.lineHeight(13px !important);
 }
 
 .line-height--15px {
-	@include lineHeight(15px !important);
+	@include mixin.lineHeight(15px !important);
 }
 
 .line-height--17px {
-	@include lineHeight(17px !important);
+	@include mixin.lineHeight(17px !important);
 }
 
 .line-height--18px {
-	@include lineHeight(18px !important);
+	@include mixin.lineHeight(18px !important);
 }
 .line-height--19px {
-	@include lineHeight(19px !important);
+	@include mixin.lineHeight(19px !important);
 }
 
 .line-height--20px {
-	@include lineHeight(20px !important);
+	@include mixin.lineHeight(20px !important);
 }
 
 .line-height--21px {
-	@include lineHeight(21px !important);
+	@include mixin.lineHeight(21px !important);
 }
 
 .line-height--22px {
-	@include lineHeight(22px !important);
+	@include mixin.lineHeight(22px !important);
 }
 
 .line-height--24px {
-	@include lineHeight(24px !important);
+	@include mixin.lineHeight(24px !important);
 }
 
 .line-height--25px {
-	@include lineHeight(25px !important);
+	@include mixin.lineHeight(25px !important);
 }
 
 .line-height--26px {
-	@include lineHeight(26px !important);
+	@include mixin.lineHeight(26px !important);
 }
 
 .line-height--27px {
-	@include lineHeight(27px !important);
+	@include mixin.lineHeight(27px !important);
 }
 
 .line-height--28px {
-	@include lineHeight(28px !important);
+	@include mixin.lineHeight(28px !important);
 }
 
 .line-height--33px {
-	@include lineHeight(33px !important);
+	@include mixin.lineHeight(33px !important);
 }
 
 .line-height--45px {
-	@include lineHeight(45px !important);
+	@include mixin.lineHeight(45px !important);
 }
 
 .font-size--9 {
@@ -600,24 +604,24 @@
 	font-size: 0.6875rem !important;
 }
 .font-size--14px {
-	font-size: $font-size-sm;
+	font-size: variables.$font-size-sm;
 }
 .font-size--13 {
-	font-size: $font-size-xs;
+	font-size: variables.$font-size-xs;
 }
 .font-size--16px {
-	font-size: $font-size-browser-default;
+	font-size: variables.$font-size-browser-default;
 }
 .font-size--xs {
-	font-size: $font-size-xs;
+	font-size: variables.$font-size-xs;
 }
 
 .font-size--sm {
-	font-size: $font-size-sm !important;
+	font-size: variables.$font-size-sm !important;
 }
 
 .font-size--18 {
-	font-size: $font-size-md;
+	font-size: variables.$font-size-md;
 }
 
 .font-size--19 {
@@ -649,81 +653,81 @@
 	font-size: 3rem;
 }
 .text--uppercase {
-	@include textTransform(uppercase);
+	@include mixin.textTransform(uppercase);
 }
 
 .text--capitalize {
-	@include textTransform(capitalize);
+	@include mixin.textTransform(capitalize);
 }
 .text--lowercase {
-	@include textTransform(lowercase);
+	@include mixin.textTransform(lowercase);
 }
 
 .text-decoration--underline {
-	@include textDecoration(underline);
+	@include mixin.textDecoration(underline);
 }
 
 .text-decoration--none {
-	@include textDecoration(none);
+	@include mixin.textDecoration(none);
 }
 
 .text--white {
-	color: $white-color;
+	color: variables.$white-color;
 }
 
 .text--blue {
-	color: $blue-light;
+	color: variables.$blue-light;
 }
 
 .text--black {
-	color: $black-color;
+	color: variables.$black-color;
 }
 .b-radius--10 {
-	@include borderRadius(10px !important);
+	@include mixin.borderRadius(10px !important);
 }
 
 .b-radius--15 {
-	@include borderRadius(15px !important);
+	@include mixin.borderRadius(15px !important);
 }
 
 .b-radius--20 {
-	@include borderRadius(20px !important);
+	@include mixin.borderRadius(20px !important);
 }
 .b-radius--25 {
-	@include borderRadius(25px !important);
+	@include mixin.borderRadius(25px !important);
 }
 .b-radius--30 {
-	@include borderRadius(30px !important);
+	@include mixin.borderRadius(30px !important);
 }
 .b-radius--40 {
-	@include borderRadius(40px !important);
+	@include mixin.borderRadius(40px !important);
 }
 .b-radius--50 {
-	@include borderRadius(50px !important);
+	@include mixin.borderRadius(50px !important);
 }
 
 .position--absolute {
-	@include position(absolute !important);
+	@include mixin.position(absolute !important);
 }
 
 .position--relative {
-	@include position(relative !important);
+	@include mixin.position(relative !important);
 }
 
 .z-index--1 {
-	@include zIndex(1 !important);
+	@include mixin.zIndex(1 !important);
 }
 
 .z-index--3 {
-	@include zIndex(3 !important);
+	@include mixin.zIndex(3 !important);
 }
 
 .overflow--hidden {
-	@include overflow(hidden !important);
+	@include mixin.overflow(hidden !important);
 }
 
 .overflow--auto {
-	@include overflow(auto !important);
+	@include mixin.overflow(auto !important);
 }
 
 .d--inline-flex {
@@ -731,22 +735,22 @@
 }
 
 .no--margin {
-	@include margin(0 !important);
+	@include mixin.margin(0 !important);
 }
 
 .font-weight--700 {
-	font-weight: $font-bold;
+	font-weight: variables.$font-bold;
 }
 
 .font-weight--500 {
-	font-weight: $font-medium;
+	font-weight: variables.$font-medium;
 }
 .font-weight--600 {
-	font-weight: $font-large;
+	font-weight: variables.$font-large;
 }
 
 .font-weight--400 {
-	font-weight: $font-regular;
+	font-weight: variables.$font-regular;
 }
 .font-family--medium {
 	font-family: 'Inter-medium';
@@ -759,7 +763,7 @@
 }
 
 .text-align--center {
-	@include textAlign(center);
+	@include mixin.textAlign(center);
 }
 
 .cursor--pointer {
@@ -771,8 +775,8 @@
 }
 
 .bg--transparent {
-	background-color: $background-color-transparent;
+	background-color: variables.$background-color-transparent;
 }
 .error {
-	color: $error-red;
+	color: variables.$error-red;
 }

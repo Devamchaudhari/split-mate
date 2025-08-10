@@ -1,8 +1,8 @@
-@import './_mixin.scss';
-@import './_extend.scss';
-@import '../styles/variables';
-@import './_base.scss';
-@import './_fonts.scss';
-@import './custom.scss';
-@import '../styles/common.scss';
-@import '../styles/_responsive.scss';
+@use '_mixin.scss';
+@use '_extend.scss';
+@use '../styles/variables';
+@use '_base.scss';
+@use '_fonts.scss';
+@use 'custom.scss';
+@use '../styles/common.scss';
+@use '../styles/_responsive.scss';

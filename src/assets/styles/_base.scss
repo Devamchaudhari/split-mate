@@ -1,3 +1,6 @@
+@use 'mixin';
+@use 'variables';
+
 *,
 *::after,
 *::before {
@@ -11,23 +14,23 @@
 }
 
 body {
-	@include margin(0);
-	@include padding(0);
-	color: $black-color;
+	@include mixin.margin(0);
+	@include mixin.padding(0);
+	color: variables.$black-color;
 }
 
 ::-webkit-scrollbar {
-	@include width(3px);
-	@include borderRadius(5px);
+	@include mixin.width(3px);
+	@include mixin.borderRadius(5px);
 }
 
 ::-webkit-scrollbar-track {
-	background-color: $background-color-transparent;
+	background-color: variables.$background-color-transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-	@include borderRadius(5px);
-	background-color: $white-color;
+	@include mixin.borderRadius(5px);
+	background-color: variables.$white-color;
 }
 
 button {
@@ -94,5 +97,5 @@ h6 {
 
 p {
 	font-size: 0.875rem;
-	@include lineHeight(17px);
+	@include mixin.lineHeight(17px);
 }
