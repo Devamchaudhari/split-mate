@@ -1,3 +1,5 @@
+@use 'mixin';
+
 %box-sizing--border-box {
 	box-sizing: border-box;
 }
@@ -19,7 +21,7 @@
 	display: none !important;
 }
 %transition--default {
-	@include transition(all, 0.5s, ease);
+	@include mixin.transition(all, 0.5s, ease);
 }
 
 %object__fit--contain {

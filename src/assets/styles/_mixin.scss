@@ -1,3 +1,5 @@
+@use 'variables';
+
 @mixin width($value) {
 	width: $value;
 }
@@ -117,12 +119,12 @@
 @mixin button() {
 	height: 35px;
 	@include padding(0 15px);
-	background-color: $background-color-transparent;
-	font-weight: $font-bold;
-	color: $white-color;
+	background-color: variables.$background-color-transparent;
+	font-weight: variables.$font-bold;
+	color: variables.$white-color;
 	font-size: 0.75rem;
 	border: 0;
-	border-radius: $border-radius-default;
+	border-radius: variables.$border-radius-default;
 
 	&:focus {
 		outline: 0;
@@ -130,7 +132,7 @@
 }
 
 @mixin box() {
-	background-color: $blue-magenta;
+	background-color: variables.$blue-magenta;
 	backdrop-filter: blur(65px);
 	border: 1.5px solid rgba(255, 255, 255, 0.2);
 	box-shadow: 5px 5px 30px rgba(255, 255, 255, 0.05);
