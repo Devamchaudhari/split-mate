@@ -10,12 +10,26 @@ SplitMate is a convenient and user-friendly expense splitting webapp that simpli
 
 ## Installation
 
-SplitMate is available for website platforms. To install the webapp, follow these steps:
+SplitMate is available for website platforms. To install and run the webapp with **Vite**, follow these steps:
 
-1. Clone or download the Split-Mate repository.
-2. Navigate to the project directory.
-3. Run `npm install` to install the necessary dependencies.
-4. Connect your device or emulator and run `npm start` to launch the webapp.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/split-mate.git
+   cd split-mate
+
+2. Install dependencies
+   ```bash
+   npm install
+
+3. Run the project
+    ```bash
+    npm run dev
+
+4. Build the project
+    ```bash
+    npm run build
+
+Open the local server URL shown in your terminal (usually http://localhost:5173) to view the webapp.
 
 Please note that SplitMate requires an active internet connection to function properly.
 
